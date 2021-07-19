@@ -37,7 +37,7 @@ function Nav() {
     const ctx = canvas.getContext('2d');
     let moveSlowly = 0.01;
     let fadeInWave = canvas.width;
-    let frameCount = 30;
+    let frameCount = 40;
     let animationFrameId;
     const render = () => {
       fadeInWave = fadeInWave - 15;
