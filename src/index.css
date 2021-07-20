@@ -31,3 +31,20 @@
 .canvasWrapper {
   background: #a3bfba;
 }
+
+/* ////////////////////ImageUploader////////////////////////// */
+
+div.imageUploaderContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+img.preview {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}

@@ -18,7 +18,7 @@ function Nav() {
             Math.sin(frameCount),
         i
       );
-      // ctx.lineTo(
+      // ctx.lineTo( // 상엽스의 파도처럼 올라가는 효과 fadeInWave에 Math.sin(fadeInWave * 0.003)을 곱한 것
       //   fadeInWave * Math.sin(fadeInWave * 0.003) +
       //     Math.sin(i * 0.0005 * frameCount + moveSlowly) *
       //       90 *

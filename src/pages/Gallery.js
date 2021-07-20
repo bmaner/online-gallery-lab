@@ -27,8 +27,8 @@ function Image({ url, canvasWidth }) {
   useFrame(() => {
     mesh.current.position.x += 0.02 * timeMod * 0.5;
 
-    if (mesh.current.position.x + 5 > canvasWidth / 15) {
-      mesh.current.position.x = -(canvasWidth / 15);
+    if (mesh.current.position.x + 5 > canvasWidth / 40) {
+      mesh.current.position.x = -(canvasWidth / 40);
     }
   });
 
