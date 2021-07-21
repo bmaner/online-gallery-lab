@@ -36,15 +36,55 @@
 
 div.imageUploaderContainer {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh; */
   display: flex;
   align-items: start;
   justify-content: center;
 }
+div.contextCon {
+  display: flex;
+  flex-direction: column;
+}
+div.projectInfo {
+  display: flex;
+}
 
 img.preview {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+}
+
+button.previewBtn {
+  background-color: #4000c7;
+  text-decoration: none;
+  border: none;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* ////////////////// Modal ///////////////////// */
+
+div.modalBackdrop {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+div.modalView {
+  z-index: 1;
+  background-color: #fff;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 10px;
 }

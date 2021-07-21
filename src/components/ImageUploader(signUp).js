@@ -6,7 +6,7 @@ import axios from 'axios';
 
 //본문 미리보기 + portfolio upload 페이지에는 글 작성시 작게 미리보기 화면 구현
 
-function ImageUploader() {
+function ImageUploaderSignUp() {
   const input = useRef(null);
   const [defaultImg, setDefaultImg] = useState('');
   const [selected, setSelected] = useState(null);
@@ -92,4 +92,4 @@ function ImageUploader() {
   );
 }
 
-export default ImageUploader;
+export default ImageUploaderSignUp;
